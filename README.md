@@ -15,9 +15,9 @@ HTML, CSS and JavaScript as a part of preliminary code assignment by a company i
 - Clone the repo.
 - Open Index.html.
 
-## Live Demo
+## Live Demo 🌐
 
-[Devlivery Fee Calculator](http://)
+[Devlivery Fee Calculator](https://mahmoods-delivery-fee-calculator-js.vercel.app/)
 
 ## Contributions
 
