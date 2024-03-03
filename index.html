@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delivery Fee Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator-container">
+      <h2>Delivery Fee Calculator</h2>
+      <label for="cart-value">Cart Value (€)</label>
+      <input type="number" id="cart-value" />
+
+      <label for="delivery-distance">Delivery Distance (m)</label>
+      <input type="number" id="delivery-distance" />
+
+      <label for="amount-of-items">Amount of Items</label>
+      <input type="number" id="amount-of-items" />
+
+      <label for="delivery-time">Time</label>
+      <input type="date" id="delivery-time" />
+
+      <button id="calculate-price">Calculate Delivery Price</button>
+      <div id="delivery-price">Delivery Price: <span>€0</span></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

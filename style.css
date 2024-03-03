@@ -1,0 +1,55 @@
+/* Google style uses Material design principles: simplicity, with an emphasis on clean lines and functionality */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.calculator-container {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.calculator-container h2 {
+  color: #1a73e8;
+  text-align: center;
+}
+
+input[type="number"],
+input[type="date"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #1a73e8;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #1669c1;
+}
+
+#delivery-price {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #333;
+}
